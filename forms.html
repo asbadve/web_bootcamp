@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Forms</title>
 </head>
+
 <body>
-    <input type="text" placeholder="username">
-    <input type="password" placeholder="password">
-    <button>Submit</button>
-    <input type="submit">
+
+    <!-- action - where data is send to -->
+    <!-- method - what http method (get/post) -->
+
+    <form action="http://www.wikipedia.org" method="GET">
+
+        <h1>Login</h1>
+
+        <!-- alternate syntax for lable -->
+        <label for="username">Email :</label> <input type="email"  name="username" placeholder="username" id="username" required>
+
+
+        <label>Password : <input type="password" name="password" placeholder="password" required></label>
+        <input type="submit">
+    </form>
 </body>
+
 </html>
