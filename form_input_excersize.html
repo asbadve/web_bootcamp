@@ -36,7 +36,7 @@
                 <input name="email" type="email" placeholder="E-mail" required/>
             </label>
             <label>Password:
-                <input name="password" type="password" placeholder="password" minlength="5" maxlength="10" required/>
+                <input pattern=".{5,10}" name="password" type="password" placeholder="password"  required title="5 to 10 charachter"/>
             </label>
         </p>
 
