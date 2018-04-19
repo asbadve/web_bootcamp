@@ -1,0 +1,16 @@
+body{
+    background: plum;
+}
+
+li{
+    border: 2px solid red;
+}
+/* id accessor is '#' in css */
+#special{
+    border: solid;
+}
+/* class accessor is '.' in css  */
+.completed{
+    text-decoration: line-through;
+
+}

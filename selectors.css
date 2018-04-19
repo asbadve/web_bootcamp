@@ -1,0 +1,28 @@
+/* '*' selector apply css to all element*/
+*{
+    border: 1px solid lightgray;
+}
+/* Descendent Selector */
+/* Below style apply to ancher tag only those are inside the li tag */
+li a {
+color: lightcoral;
+}
+/* Adjescent Selector */
+/* will apply style to the ul who are adjecent to the h4 or after h4 */
+h4 + ul{
+     border: 4px solid rebeccapurple;
+}
+/* attribute selector */
+/* it apply style based on atrribute to any element  */
+a[href="http://www.google.com"]{
+    background: blue;
+}
+/* nth of type */
+/* takes a number select every nth of specific element */
+ul:nth-of-type(2){
+    background: aquamarine;
+}
+
+li:nth-of-type(2){
+    background: blueviolet;
+}

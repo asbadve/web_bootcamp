@@ -1,0 +1,22 @@
+h1{
+    color:#FF8000;
+    
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: peru; */
+    border: 5px dotted purple;
+
+}
+li{
+    color: green;
+}
+h4{
+    color: purple;
+    background: rgb(255, 100, 80)
+}
+body{
+    /* background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt0UTro84Lgr1vLO1bMXVWplVyi0oj-2JB80kSSmQ0SJz0gGcN);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: pink;
+}
