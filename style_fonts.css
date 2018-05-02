@@ -1,0 +1,45 @@
+/* font family */
+p  {
+    font-family: Arial; 
+}
+h1 {
+    font-family: Georgia;
+}
+/* font-size */
+body{
+    font-size: 10px;
+}
+h1{
+    font-size: 5.0em; 
+}
+
+p{
+    font-size: 2.0em;
+}
+/* em uses parent font size. In below case the span font size is double the size of parent font size(i.e double the size of paragraph). Initial value of em depends on browser 60px  */
+span{
+    font-size: 2.0em;
+}
+
+/* Font weight */
+p{
+    font-weight: normal;
+}
+/* line-height */
+p{
+    line-height:1.5;
+}
+/* text-align */
+h1{
+    text-align: right;
+}
+p{
+    text-align: center;
+}
+/* text decoration */
+p{
+text-decoration: underline;
+}
+h1{
+    text-decoration: line-through;
+}
