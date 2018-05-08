@@ -1,0 +1,23 @@
+p{
+    /* Content -width and height */
+    width: 50%;
+    /* height: 50%; */
+
+    /* Border */
+
+    border: 2px solid blue;
+
+    /* padding */
+    /* padding: 10px; */
+    padding-left: 20px;
+
+
+    /* margin */
+    /* margin: 50px; */
+    /* margin-top: 50px; */
+    /* margin: 60px 40px 50px 10px; */
+    /* margin: 0 auto 0 auto;  below and this line are same*/
+    /* margin: 0 auto; */
+    margin: 10px 20px;
+    /* above code give both top bottom 10 and left right 20 */
+}
