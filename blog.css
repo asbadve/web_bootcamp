@@ -1,0 +1,25 @@
+body{
+    align-self: auto;
+    flex: left;
+    margin: 20px;
+    padding-left: 20px;
+    border: 20px solid #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: #3498db;
+}
+h1{
+    color: #2c3e50;
+}
+
+p :nth-of-type(1) div{
+    color: aqua;
+}
+p :first-of-type {
+    color: aqua;
+
+}
